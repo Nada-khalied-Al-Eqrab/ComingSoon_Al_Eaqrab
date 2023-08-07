@@ -19,17 +19,22 @@ body::before {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(10, 10, 10, 0.719);
+  background: rgba(15, 15, 15, 0.856);
 }
 
 @media (min-width: 1024px) {
-  body {
-    background-attachment: fixed;
-  }
+   body {
+    background-attachment:fixed;
+  } 
+}
+@media (max-width: 992px) {
+   body {
+    background-attachment:fixed;
+  } 
 }
 
 a {
-  color: #2311c4;
+  color: #1809f5e1;
   text-decoration: none;
 }
 
@@ -43,7 +48,7 @@ h2,
 h3,
 h5,
 h6 { 
-  font-family: "Raleway", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -61,7 +66,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2312be;
+  background: #1809f5e1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -99,7 +104,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #2312be;
+  color: #1809f5e1;
 }
 
 #header h2 {
@@ -117,8 +122,8 @@ h6 {
   margin: 10px;
   width: 100px;
   padding: 15px 0;
-  background: rgba(15, 33, 199, 0.363);
-  border-top: 5px solid #503dfc;
+  background: #3358ff48;
+  border-top: 6px solid #1809f5e1;
 }
 
 #header .countdown div h3 {
@@ -133,7 +138,7 @@ h6 {
   font-weight: 600;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575px) { 
   #header .countdown div {
     width: 70px;
     padding: 10px 0;
@@ -154,6 +159,7 @@ h6 {
 #header .subscribe {
   font-size: 15px;
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #header .subscribe h4 {
@@ -188,7 +194,7 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #2312be;
+  background: #1909f5;
   color: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -200,7 +206,7 @@ h6 {
 
 #header .subscribe .error-message {
   display: none;
-  color: #2312be;
+  color: #1809f5e1;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -258,7 +264,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  color: #2312be;
+  color: #1809f5e1;
 }
 
 /*--------------------------------------------------------------
@@ -266,8 +272,15 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  
 }
+.col-lg-6{
 
+  background: #ffffff0f;
+  padding: 30px;
+  font-family:'Times New Roman', Times, serif;
+  
+} 
 .section-bg {
   background-color: #fff5f5;
 }
@@ -297,6 +310,7 @@ section {
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  
 }
 
 .about .content h3 {
@@ -320,7 +334,7 @@ section {
   top: 12px;
   position: absolute;
   font-size: 20px;
-  color: #2312be;
+  color: #1809f5e1;
 }
 
 .about .content p:last-child {
@@ -331,8 +345,9 @@ section {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background: rgba(255, 255, 255, 0.06);
+  background: #ffffff0f;
   padding: 30px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .contact .info i {
@@ -341,7 +356,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background:#2312be;
+  background:#1809f5e1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +401,7 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #1b06db;
+  background: #1809f5e1;
   color: #fff;
 }
 
@@ -410,7 +425,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: #2312be;
+  color: #1809f5e1;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -419,7 +434,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #2312be;
+  background: #1809f5e1;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -482,11 +497,12 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #2312be;
+  background: #1809f5e1;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -512,6 +528,7 @@ section {
   color: #fff;
   font-size: 14px;
   position: relative;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #footer .copyright {
@@ -526,5 +543,5 @@ section {
 }
 
 #footer .credits a {
-  color: #2312be;
+  color: #1809f5e1;
 }
